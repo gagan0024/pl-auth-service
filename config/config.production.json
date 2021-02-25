@@ -1,0 +1,13 @@
+{ 
+	"port":8080,
+	"database":"test", 
+	"db_password":"password",
+	"db_userid":"root",
+	"dbserver":"host.docker.internal",
+	"dialect":"mysql",
+	"db_maxpool":10,
+	"db_minpool":0,
+	"db_acquire":30000,
+	"db_idle":1000
+}
+
