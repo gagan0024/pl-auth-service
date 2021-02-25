@@ -1,2 +1,0 @@
-CREATE INDEX index_user_id ON users (id);
-CREATE INDEX index_client_id ON clients (clientSecret,clientId);
