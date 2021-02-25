@@ -1,5 +1,5 @@
 { 
-	"port":8000,
+	"port":8080,
 	"database":"test", 
 	"db_password":"password",
 	"db_userid":"root",
