@@ -5,7 +5,6 @@ let generateTokenProcess = new GenerateTokenProcess();
 
 exports.createToken = async (req, res) => {
     try{
-        let gagan=null;
         let data = await generateTokenProcess.generateToken(req.body.clientsecret, req.body.clientid, req.body.id);
         res.status(data[0]).json({
             token:data[1]
